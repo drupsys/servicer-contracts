@@ -5,7 +5,7 @@ namespace MVF\Servicer\Contracts;
 interface EventHandler
 {
     /**
-     * @return void|EventRedirector
+     * @return void|EventTransformer
      */
     public function consume(array $payload);
 }

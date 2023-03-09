@@ -2,7 +2,7 @@
 
 namespace MVF\Servicer\Contracts;
 
-interface EventRedirector
+interface EventTransformer
 {
     public function __invoke(array $payload): ArraySerializable;
 }
